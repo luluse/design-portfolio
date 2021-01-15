@@ -1,10 +1,12 @@
-import React from "react"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+import React from "react";
+import { Link } from "gatsby";
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 import Card from '../components/Card';
-import Section from '../components/section'
+import Section from '../components/section';
 import Wave from "../components/Wave";
+import Cell from '../components/Cell';
+import staticdata from '../../staticdata.json';
 
 const IndexPage = () => (
   <Layout>
@@ -59,6 +61,9 @@ const IndexPage = () => (
         logo={require('../images/logo-react.png')}
         title="React for Designers"
         text="Learn how to build a modern site using React and the most efficient libraries to get your site/product online. Get familiar with components, Grid CSS, animations, interactions, dynamic data with Contentful and deploying your site with Netlify." />
+      {staticdata.cells.map(cell => (
+        <Cell title={cell.title} image={cell.image} />
+      ))}
     </div>
   </Layout>
 )
