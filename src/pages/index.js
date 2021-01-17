@@ -9,6 +9,7 @@ import Cell from '../components/Cell';
 import staticdata from '../../staticdata.json';
 import styled from 'styled-components'
 
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -22,16 +23,16 @@ const IndexPage = () => (
           <Link to="/video">Watch the video</Link>
 
           <div className="Logos">
-            <img src={require('../images/js-logo.png')} width="50" />
-            <img src={require('../images/nodejs-logo.jpg')} width="50" />
-            <img src={require('../images/logo-react.png')} width="50" />
-            <img src={require('../images/vscode-logo.png')} width="50" />
-            <img src={require('../images/github-logo.png')} width="50" />
-            <img src={require('../images/mongo-logo.jpg')} width="50" />
-            <img src={require('../images/sql-logo.jpg')} width="50" />
-            <img src={require('../images/postgres-logo.png')} width="50" />
-            <img src={require('../images/html-logo.png')} width="50" />
-            <img src={require('../images/css-logo.png')} width="50" />
+            <img src={require('../images/js-logo.png')} width="50" alt='' />
+            <img src={require('../images/nodejs-logo.jpg')} width="50" alt='' />
+            <img src={require('../images/logo-react.png')} width="50" alt='' />
+            <img src={require('../images/vscode-logo.png')} width="50" alt='' />
+            <img src={require('../images/github-logo.png')} width="50" alt='' />
+            <img src={require('../images/mongo-logo.jpg')} width="50" alt='' />
+            <img src={require('../images/sql-logo.jpg')} width="50" alt='' />
+            <img src={require('../images/postgres-logo.png')} width="50" alt='' />
+            <img src={require('../images/html-logo.png')} width="50" alt='' />
+            <img src={require('../images/css-logo.png')} width="50" alt='' />
           </div>
           <Wave />
         </div>
