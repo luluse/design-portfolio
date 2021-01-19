@@ -60,9 +60,10 @@ const IndexPage = () => (
       </div>
       <Section
         image={require('../images/wallpaper2.jpg')}
-        logo={require('../images/logo-react.png')}
-        title="React for Designers"
-        text="Learn how to build a modern site using React and the most efficient libraries to get your site/product online. Get familiar with components, Grid CSS, animations, interactions, dynamic data with Contentful and deploying your site with Netlify." />
+        logo={require('../images/hirondelle.png')}
+        title="About me"
+        text="My name is Lulu, I'm a software Developer base out of Seattle WA. I come from the Wine industry with a background in Marketing and Sales. I'm passionate about Javscript Front End development.
+        When I'm not coding I love to bake, spend time with my dog Jordi and bike around West Seattle." />
       <SectionCaption>12 sections - 6 hours</SectionCaption>
       <SectionCellGroup>
         {staticdata.cells.map(cell => (
