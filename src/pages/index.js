@@ -42,27 +42,27 @@ const IndexPage = () => (
         <div className="CardGroup">
           <Card
             title="CLI"
-            text="12 sections"
-            image={require('../images/wallpaper.jpg')} />
+            text="Backend project with node.js"
+            image={require('../images/CLI-bkground.png')} />
+          <Card
+            title="React Native App"
+            text="iOS App"
+            image={require('../images/wallpaper4.jpg')} />
           <Card
             title="What's Cookin"
-            text="12 sections"
-            image={require('../images/wallpaper2.jpg')} />
+            text="React App"
+            image={require('../images/cookin-bkground.jpg')} />
           <Card
             title="Storefront"
-            text="12 sections"
-            image={require('../images/wallpaper3.jpg')} />
-          <Card
-            title="React Native"
-            text="12 sections"
-            image={require('../images/wallpaper4.jpg')} />
+            text="React App"
+            image={require('../images/storefront-bkground.png')} />
         </div>
       </div>
       <Section
-        image={require('../images/wallpaper2.jpg')}
-        logo={require('../images/hirondelle.png')}
+        image={require('../images/wallpaper7.jpg')}
+        logo={require('../images/avatar.jpg')}
         title="About me"
-        text="My name is Lulu, I'm a software Developer base out of Seattle WA. I come from the Wine industry with a background in Marketing and Sales. I'm passionate about Javscript Front End development.
+        text="My name is Lulu, I'm a software Developer based out of Seattle WA. I come from the Wine industry with a background in Marketing and Sales. I'm passionate about Javscript and Front End development.
         When I'm not coding I love to bake, spend time with my dog Jordi and bike around West Seattle." />
       <SectionCaption>12 sections - 6 hours</SectionCaption>
       <SectionCellGroup>
