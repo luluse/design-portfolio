@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "gatsby";
+// import { Link } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import Card from '../components/Card';
@@ -18,9 +18,9 @@ const IndexPage = () => (
         <div className="HeroGroup">
           <h1>Hi, I'm Lulu</h1>
           <p>Welcome to my Portfolio</p>
-          <Link to="/page-2/">Go to page 2</Link>
+          {/* <Link to="/page-2/">Go to page 2</Link>
           <br /><br />
-          <Link to="/video">Watch the video</Link>
+          <Link to="/video">Watch the video</Link> */}
 
           <div className="Logos">
             <img src={require('../images/js-logo.png')} width="50" alt='' />
@@ -37,8 +37,8 @@ const IndexPage = () => (
           <Wave />
         </div>
       </div>
-      <div className="Cards">
-        <h2>My projects</h2>
+      <div className="Cards" >
+        <h2 id="projects">My projects</h2>
         <div className="CardGroup">
           <Card
             title="CLI"
@@ -58,13 +58,14 @@ const IndexPage = () => (
             image={require('../images/storefront-bkground.png')} />
         </div>
       </div>
-      <Section
+      <div id="aboutMe"></div>
+      <Section 
         image={require('../images/wallpaper7.jpg')}
         logo={require('../images/avatar.jpg')}
         title="About me"
         text="My name is Lulu, I'm a software Developer based out of Seattle WA. I come from the Wine industry with a background in Marketing and Sales. I'm passionate about Javscript and Front End development.
         When I'm not coding I love to bake, spend time with my dog Jordi and bike around West Seattle." />
-      <SectionCaption>12 sections - 6 hours</SectionCaption>
+      <SectionCaption >12 sections - 6 hours</SectionCaption>
       <SectionCellGroup>
         {staticdata.cells.map(cell => (
           <Cell title={cell.title} image={cell.image} />
