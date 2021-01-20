@@ -20,10 +20,12 @@ const CellGroup = styled.div`
 const CellImage = styled.div`
   width: 60px;
   height: 60px;
-  background: #212C4F;
+  border: solid 2px #212C4F;
   border-radius: 10px;
   background-image: url(${props => props.image});
-  background-size: 60px;
+  background-size: 40px;
+  background-repeat: no-repeat;
+  background-position: center;
 `
 const CellTitle = styled.div`
   font-size: 24px;

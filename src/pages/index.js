@@ -8,6 +8,7 @@ import Wave from "../components/Wave";
 import Cell from '../components/Cell';
 import staticdata from '../../staticdata.json';
 import styled from 'styled-components'
+import Icons from "../components/icons";
 
 
 const IndexPage = () => (
@@ -23,16 +24,9 @@ const IndexPage = () => (
           <Link to="/video">Watch the video</Link> */}
 
           <div className="Logos">
-            <img src={require('../images/js-logo.png')} width="50" alt='' />
-            <img src={require('../images/nodejs-logo.jpg')} width="50" alt='' />
-            <img src={require('../images/logo-react.png')} width="50" alt='' />
-            <img src={require('../images/vscode-logo.png')} width="50" alt='' />
-            <img src={require('../images/github-logo.png')} width="50" alt='' />
-            <img src={require('../images/mongo-logo.jpg')} width="50" alt='' />
-            <img src={require('../images/sql-logo.jpg')} width="50" alt='' />
-            <img src={require('../images/postgres-logo.png')} width="50" alt='' />
-            <img src={require('../images/html-logo.png')} width="50" alt='' />
-            <img src={require('../images/css-logo.png')} width="50" alt='' />
+            {staticdata.icons.map(icon => (
+              <Icons image={icon.image} />
+            ))}
           </div>
           <Wave />
         </div>
@@ -59,13 +53,13 @@ const IndexPage = () => (
         </div>
       </div>
       <div id="aboutMe"></div>
-      <Section 
+      <Section
         image={require('../images/wallpaper7.jpg')}
         logo={require('../images/avatar.jpg')}
         title="About me"
         text="My name is Lulu, I'm a software Developer based out of Seattle WA. I come from the Wine industry with a background in Marketing and Sales. I'm passionate about Javscript and Front End development.
         When I'm not coding I love to bake, spend time with my dog Jordi and bike around West Seattle." />
-      <SectionCaption >12 sections - 6 hours</SectionCaption>
+      <SectionCaption >tools and skills</SectionCaption>
       <SectionCellGroup>
         {staticdata.cells.map(cell => (
           <Cell title={cell.title} image={cell.image} />
