@@ -1,7 +1,7 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-import logo from '../images/logo-designcode.svg';
+// import logo from '../images/logo-designcode.svg';
 import './Header.css'
 import StripeCheckout from 'react-stripe-checkout'
 
@@ -51,10 +51,10 @@ class Header extends React.Component {
     return (
       <div className={this.state.hasScrolled ? 'Header HeaderScrolled' : 'Header'}>
         <div className="HeaderGroup">
-          <Link to="/"><img src={logo} width="30" alt='' /></Link>
-          <Link to="/courses">Courses</Link>
-          <Link to="/downloads">Downloads</Link>
-          <Link to="/workshops">Workshops</Link>
+          <Link to="/"><img src="https://i.ibb.co/Yczv2dz/imageedit-1-8021648129.png" width="50" alt='' /></Link>
+          <Link to="/#projects">My projects</Link>
+          <Link to="/#aboutMe">About Me</Link>
+          <Link to="/#contact">Contact Me</Link>
           <StripeCheckout
             amount={5000}
             token={this.handlePurchase}

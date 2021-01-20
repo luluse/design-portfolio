@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 
 const Footer = ({ data, children }) => (
-  <FooterGroup>
+  <FooterGroup id="contact">
             <Text>Lulu Sevignon</Text>
             <Button>{children}</Button>
             <LinkGroup>{data.allContentfulLink.edges.map(edge => (

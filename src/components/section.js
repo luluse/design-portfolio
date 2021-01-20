@@ -48,6 +48,8 @@ const SectionLogo = styled.img`
   width: 128px;
   margin: 0 auto;
   align-self: end;
+  border-radius: 75px;
+
 `
 
 const SectionTitleGroup = styled.div`
