@@ -19,6 +19,7 @@ const IndexPage = () => (
         <div className="HeroGroup">
           <h1>Hi, I'm Lulu</h1>
           <p>Welcome to my Portfolio</p>
+          <a href="https://github.com/luluse" target="_blank" rel="noreferrer">Go to my Github</a>
           {/* <Link to="/page-2/">Go to page 2</Link>
           <br /><br />
           <Link to="/video">Watch the video</Link> */}
@@ -34,22 +35,32 @@ const IndexPage = () => (
       <div className="Cards" >
         <h2 id="projects">My projects</h2>
         <div className="CardGroup">
-          <Card
-            title="CLI"
-            text="Backend project with node.js"
-            image={require('../images/CLI-bkground.png')} />
-          <Card
-            title="React Native App"
-            text="iOS App"
-            image={require('../images/wallpaper4.jpg')} />
-          <Card
-            title="What's Cookin"
-            text="React App"
-            image={require('../images/cookin-bkground.jpg')} />
-          <Card
-            title="Storefront"
-            text="React App"
-            image={require('../images/storefront-bkground.png')} />
+          <a href="https://github.com/luluse/Async-and-the-Awaits" target="_blank" rel="noreferrer">
+            <Card
+              title="CLI"
+              text="Backend project with node.js"
+              image={require('../images/CLI-bkground.png')} />
+          </a>
+          <a href="https://github.com/luluse/app-design" target="_blank" rel="noreferrer">
+            <Card
+              title="React Native App"
+              text="iOS App"
+              image={require('../images/wallpaper4.jpg')} /></a>
+          <a href="https://github.com/luluse/WhatsCookin" target="_blank" rel="noreferrer">
+            <Card
+              title="What's Cookin"
+              text="React App"
+              image={require('../images/cookin-bkground.jpg')} /></a>
+          <a href="https://github.com/lulusevignon-401-advanced-javascript/storefront" target="_blank" rel="noreferrer">
+            <Card
+              title="Storefront"
+              text="React App"
+              image={require('../images/storefront-bkground.png')} /></a>
+          <a href="https://github.com/luluse/doodle-jump" target="_blank" rel="noreferrer">
+            <Card
+              title="Jumping Snail"
+              text="Vanilla JavaScript"
+              image={require('../images/jump-snail.jpg')} /></a>
         </div>
       </div>
       <div id="aboutMe"></div>
