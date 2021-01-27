@@ -6,6 +6,9 @@
 
 ## Welcome to my porfolio
 
+Hello, I'm Lulu. My portfolio lists my main projects and the tools I've used to build them. 
+
+
 ## Website built using:
 - React
 - Gatsby
