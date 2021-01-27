@@ -44,7 +44,9 @@ const Layout = ({ children }) => {
           {children}
         </main>
         <Footer data={data}>
-        <a href="mailto:ludivine.sevignon@gmail.com" style={{ color: "white" }}>Connect</a>
+        <a href="mailto:ludivine.sevignon@gmail.com" style={{ color: "white" }}>Email </a>
+        {/*<br/>
+         <a href="https://github.com/luluse" style={{ color: "white" }}>Github</a> */}
         </Footer>
 
       </div>

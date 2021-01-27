@@ -1,7 +1,6 @@
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
-// import logo from '../images/logo-designcode.svg';
 import './Header.css'
 import StripeCheckout from 'react-stripe-checkout'
 
