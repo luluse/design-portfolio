@@ -43,9 +43,9 @@ const IndexPage = () => (
           </a>
           <a href="https://github.com/luluse/app-design" target="_blank" rel="noreferrer">
             <Card
-              title="React Native App"
-              text="iOS App"
-              image={require('../images/wallpaper4.jpg')} /></a>
+              title="Genuine Drink"
+              text="React Native App"
+              image={require('../images/genuinedrink.png')} /></a>
           <a href="https://github.com/luluse/WhatsCookin" target="_blank" rel="noreferrer">
             <Card
               title="What's Cookin"

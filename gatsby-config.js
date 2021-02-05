@@ -4,8 +4,8 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Design Portfolio`,
-    description: `Welcome to py porfolio built with React.`,
+    title: `Lulu Portfolio`,
+    description: `Welcome to my portfolio built with React`,
     keywords: `Lulu Sevignon Porfolio`,
     author: `Lulu Sevignon`,
   },
