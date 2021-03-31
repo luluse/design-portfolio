@@ -61,6 +61,11 @@ const IndexPage = () => (
               title="Jumping Snail"
               text="Vanilla JavaScript"
               image={require('../images/jump-snail.jpg')} /></a>
+          <a href="https://github.com/luluse/squirrel" target="_blank" rel="noreferrer">
+            <Card
+              title="My Best Friends"
+              text="React App"
+              image={require('../images/mybestfriends.png')} /></a>
         </div>
       </div>
       <div id="aboutMe"></div>
