@@ -73,7 +73,7 @@ const IndexPage = () => (
         image={require('../images/wallpaper7.jpg')}
         logo={require('../images/avatar.jpg')}
         title="About me"
-        text="My name is Lulu, I'm a software Developer based out of Seattle WA. I come from the Wine industry with a background in Marketing and Sales. I'm passionate about Javscript and Front End development.
+        text="My name is Lulu, I'm a software Developer based out of Seattle WA. I come from the Wine industry with a background in Marketing and Sales. I'm passionate about JavaScript and Front End development.
         When I'm not coding I love to bake, spend time with my dog Jordi and bike around West Seattle." />
       <SectionCaption >tools and skills</SectionCaption>
       <SectionCellGroup>
