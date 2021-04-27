@@ -54,13 +54,13 @@ class Header extends React.Component {
           <Link to="/#projects">My projects</Link>
           <Link to="/#aboutMe">About Me</Link>
           <Link to="/#contact">Contact Me</Link>
-          <StripeCheckout
+          {/* <StripeCheckout
             amount={5000}
             token={this.handlePurchase}
             stripeKey={process.env.GATSBY_STRIPE_PUBLISHABLE}
           >
             <button>Buy</button>
-          </StripeCheckout>
+          </StripeCheckout> */}
         </div>
       </div>
     )
