@@ -49,12 +49,12 @@ const IndexPage = () => (
           <a href="https://github.com/luluse/WhatsCookin" target="_blank" rel="noreferrer">
             <Card
               title="What's Cookin"
-              text="React App"
+              text="React/Redux App"
               image={require('../images/cookin-bkground.jpg')} /></a>
           <a href="https://github.com/lulusevignon-401-advanced-javascript/storefront" target="_blank" rel="noreferrer">
             <Card
               title="Storefront"
-              text="React App"
+              text="React/Redux App"
               image={require('../images/storefront-bkground.png')} /></a>
           <a href="https://github.com/luluse/doodle-jump" target="_blank" rel="noreferrer">
             <Card
@@ -64,8 +64,13 @@ const IndexPage = () => (
           <a href="https://github.com/luluse/squirrel" target="_blank" rel="noreferrer">
             <Card
               title="My Best Friends"
-              text="React App"
+              text="React/Redux App"
               image={require('../images/mybestfriends.png')} /></a>
+          <a href="https://github.com/luluse/MySocials-client" target="_blank" rel="noreferrer">
+            <Card
+              title="MySocials"
+              text="React App"
+              image={require('../images/mysocials.png')} /></a>
         </div>
       </div>
       <div id="aboutMe"></div>
@@ -75,12 +80,12 @@ const IndexPage = () => (
         title="About me"
         text="My name is Lulu, I'm a software Developer based out of Seattle WA. I come from the Wine industry with a background in Marketing and Sales. I'm passionate about JavaScript and Front End development.
         When I'm not coding I love to bake, spend time with my dog Jordi and bike around West Seattle." />
-      <SectionCaption >tools and skills</SectionCaption>
+      {/* <SectionCaption >tools and skills</SectionCaption>
       <SectionCellGroup>
         {staticdata.cells.map(cell => (
           <Cell title={cell.title} image={cell.image} />
         ))}
-      </SectionCellGroup>
+      </SectionCellGroup> */}
     </div>
   </Layout>
 )

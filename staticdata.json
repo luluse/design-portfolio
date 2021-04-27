@@ -6,7 +6,7 @@
       },
       {
           "title": "Node.js",
-          "image": "https://i.ibb.co/C18XgNm/nodejs-logo.jpg"
+          "image": "https://i.ibb.co/WGn7vST/nodejs.png"
       },
       {
           "title": "React and React Native",
@@ -26,7 +26,7 @@
       },
       {
           "title": "SQL",
-          "image": "https://i.ibb.co/xHPvDjK/Sql-logo.jpg"
+          "image": "https://i.ibb.co/PZMNDKz/sql.png"
       },
       {
           "title": "PostsreSQL",
@@ -50,14 +50,20 @@
       }
   ],
   "icons":[
+    {"image": "https://i.ibb.co/PGMNRQR/ios.png"},
     {"image": "https://i.ibb.co/R7Wzx9x/js-logo.png"},
-    {"image": "https://i.ibb.co/C18XgNm/nodejs-logo.jpg"},
+    {"image": "https://i.ibb.co/WGn7vST/nodejs.png"},
     {"image": "https://i.ibb.co/LSGHrSn/logo-react.png"},
+    {"image": "https://i.ibb.co/rxJmYDV/logo.png"},
     {"image": "https://i.ibb.co/6sryNHs/vscode-logo.png"},
+    {"image": "https://i.ibb.co/PFnsfXg/git.png"},
     {"image": "https://i.ibb.co/C1cXPpY/github-logo.png"},
     {"image": "https://i.ibb.co/4TsrpJZ/mongo.png"},
-    {"image": "https://i.ibb.co/xHPvDjK/Sql-logo.jpg"},
+    {"image": "https://i.ibb.co/TrPFGdq/Graph-QL-logo-stacked.png"},
+    {"image": "https://i.ibb.co/PZMNDKz/sql.png"},
     {"image": "https://i.ibb.co/jW34yVJ/postgres-logo.png"},
+    {"image": "https://i.ibb.co/8DfyCpf/firebase.png"},
+    {"image": "https://i.ibb.co/CJnCkXh/postman.png"},
     {"image": "https://i.ibb.co/rQYDWqq/jest.png"},
     {"image": "https://i.ibb.co/vLvJD84/Materialui.png"},
     {"image": "https://i.ibb.co/bLMg09L/Css-logo.png"},
