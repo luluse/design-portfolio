@@ -26,7 +26,7 @@ const IndexPage = () => (
 
           <div className="Logos">
             {staticdata.icons.map(icon => (
-              <Icons image={icon.image} />
+              <Icons image={icon.image} title={icon.title}/>
             ))}
           </div>
           <Wave />

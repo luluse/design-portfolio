@@ -29,7 +29,7 @@
           "image": "https://i.ibb.co/PZMNDKz/sql.png"
       },
       {
-          "title": "PostsreSQL",
+          "title": "PostgreSQL",
           "image": "https://i.ibb.co/jW34yVJ/postgres-logo.png"
       },
       {
@@ -50,24 +50,24 @@
       }
   ],
   "icons":[
-    {"image": "https://i.ibb.co/PGMNRQR/ios.png"},
-    {"image": "https://i.ibb.co/R7Wzx9x/js-logo.png"},
-    {"image": "https://i.ibb.co/WGn7vST/nodejs.png"},
-    {"image": "https://i.ibb.co/LSGHrSn/logo-react.png"},
-    {"image": "https://i.ibb.co/rxJmYDV/logo.png"},
-    {"image": "https://i.ibb.co/6sryNHs/vscode-logo.png"},
-    {"image": "https://i.ibb.co/PFnsfXg/git.png"},
-    {"image": "https://i.ibb.co/C1cXPpY/github-logo.png"},
-    {"image": "https://i.ibb.co/4TsrpJZ/mongo.png"},
-    {"image": "https://i.ibb.co/TrPFGdq/Graph-QL-logo-stacked.png"},
-    {"image": "https://i.ibb.co/PZMNDKz/sql.png"},
-    {"image": "https://i.ibb.co/jW34yVJ/postgres-logo.png"},
-    {"image": "https://i.ibb.co/8DfyCpf/firebase.png"},
-    {"image": "https://i.ibb.co/CJnCkXh/postman.png"},
-    {"image": "https://i.ibb.co/rQYDWqq/jest.png"},
-    {"image": "https://i.ibb.co/vLvJD84/Materialui.png"},
-    {"image": "https://i.ibb.co/bLMg09L/Css-logo.png"},
-    {"image": "https://i.ibb.co/rf8QW6Y/Html-logo.png"}
+    {"image": "https://i.ibb.co/PGMNRQR/ios.png", "title": "iOS"},
+    {"image": "https://i.ibb.co/R7Wzx9x/js-logo.png", "title": "JavaScript"},
+    {"image": "https://i.ibb.co/WGn7vST/nodejs.png", "title": "Node.js"},
+    {"image": "https://i.ibb.co/LSGHrSn/logo-react.png", "title": "React.js"},
+    {"image": "https://i.ibb.co/rxJmYDV/logo.png", "title": "Redux"},
+    {"image": "https://i.ibb.co/6sryNHs/vscode-logo.png", "title": "VsCode"},
+    {"image": "https://i.ibb.co/PFnsfXg/git.png", "title": "Git"},
+    {"image": "https://i.ibb.co/C1cXPpY/github-logo.png", "title": "GitHub"},
+    {"image": "https://i.ibb.co/4TsrpJZ/mongo.png", "title": "MongoDB"},
+    {"image": "https://i.ibb.co/TrPFGdq/Graph-QL-logo-stacked.png", "title": "GraphQL"},
+    {"image": "https://i.ibb.co/PZMNDKz/sql.png", "title": "SQL"},
+    {"image": "https://i.ibb.co/jW34yVJ/postgres-logo.png", "title": "PostgreSQL"},
+    {"image": "https://i.ibb.co/8DfyCpf/firebase.png", "title": "Firebase"},
+    {"image": "https://i.ibb.co/CJnCkXh/postman.png", "title": "Postman"},
+    {"image": "https://i.ibb.co/rQYDWqq/jest.png", "title": "Jest"},
+    {"image": "https://i.ibb.co/vLvJD84/Materialui.png", "title": "Material UI"},
+    {"image": "https://i.ibb.co/bLMg09L/Css-logo.png", "title": "CSS 3"},
+    {"image": "https://i.ibb.co/rf8QW6Y/Html-logo.png", "title": "HTML 5"}
   ]
 
 }
