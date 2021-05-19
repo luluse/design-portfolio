@@ -2,11 +2,14 @@ import React from 'react'
 import styled from 'styled-components'
 import Tooltip from '@material-ui/core/Tooltip';
 
-const Icon = props => (
-  <Tooltip title={props.title} arrow>
+
+function Icon (props) {
+  return(
+  <Tooltip title={props.title} arrow placement="top">
   <IconImage image={props.image}></IconImage>
-  </Tooltip>      
-)
+  </Tooltip>  
+  )    
+}
 
 export default Icon
 
