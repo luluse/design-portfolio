@@ -35,17 +35,17 @@ const IndexPage = () => (
       <div className="Cards" >
         <h2 id="projects">My projects</h2>
         <div className="CardGroup">
+          <a href="https://github.com/luluse/app-design" target="_blank" rel="noreferrer">
+            <Card
+              title="Genuine Drink"
+              text="React Native App"
+              image={require('../images/genuinedrink.png')} /></a>
           <a href="https://github.com/luluse/Async-and-the-Awaits" target="_blank" rel="noreferrer">
             <Card
               title="CLI"
               text="Backend project with node.js"
               image={require('../images/CLI-bkground.png')} />
           </a>
-          <a href="https://github.com/luluse/app-design" target="_blank" rel="noreferrer">
-            <Card
-              title="Genuine Drink"
-              text="React Native App"
-              image={require('../images/genuinedrink.png')} /></a>
           <a href="https://github.com/luluse/WhatsCookin" target="_blank" rel="noreferrer">
             <Card
               title="What's Cookin"
