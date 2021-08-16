@@ -33,7 +33,7 @@ const SectionGroup = styled.div`
   margin: 100px 0 0;
   background: url(${props => props.image});
   background-size: cover;
-  height: 720px;
+  height: 790px;
   display: grid;
   grid-template-rows: 300px auto;
   grid-gap: 20px;
@@ -53,7 +53,7 @@ const SectionLogo = styled.img`
 `
 
 const SectionTitleGroup = styled.div`
-  max-width: 800px;
+  max-width: 900px;
   margin: 0 40px;
   display: grid;
   grid-gap: 20px;
@@ -71,11 +71,14 @@ const SectionTitle = styled.h3`
   margin: 0;
   line-height: 1.2;
  
-  @media (max-width: 640px) {
+  @media (max-width: 720px) {
       font-size: 40px;
   }
 `
 
 const SectionText = styled.p`
   color: white;
+  @media (max-width: 800px) {
+      font-size: 15px;
+  }
 `

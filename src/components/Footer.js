@@ -76,3 +76,6 @@ const Copyright = styled.div`
   margin: 0 auto;
   padding: 0 20px;
 `
+
+
+// Here are some of my recent projects written with JavaScript, React.js & Node.js.
