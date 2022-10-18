@@ -17,6 +17,9 @@ Hello, I'm Lulu. My portfolio lists my main projects and the tools I've used to 
 - Stripe
 - Styled-component
 
+
+<!---
 ### Deployed on Netlify
 
 [Click Here](https://lulu-portfolio.netlify.app/)
+-->
