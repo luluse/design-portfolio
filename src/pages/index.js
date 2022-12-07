@@ -131,7 +131,7 @@ const IndexPage = () => (
         image={require("../images/wallpaper7.jpg")}
         logo={require("../images/avatar.jpg")}
         title="About me"
-        text="My name is Lulu, I'm a Software Developer based out of Seattle WA. I come from the Wine industry with a background in Marketing and Sales. I mainly work with Vanilla JavaScript, ES6 features, Node.js & React.js but I'm always excited to discover new tools and learn new technologies. I'm passionate about Front End development including accessibility and authentication. When I'm not coding I love to bake, spend time with my dog, Jordi, and bike around West Seattle."
+        text="My name is Lulu, I'm a Software Developer based out of Scottsdale AZ. I come from the Wine industry with a background in Marketing and Sales. I mainly work with Vanilla JavaScript, ES6 features, Node.js & React.js but I'm always excited to discover new tools and learn new technologies. I'm passionate about Front End development including accessibility and reusability. When I'm not coding I love to bake, spend time with my husband and my dog."
       />
       {/* <SectionCaption >tools and skills</SectionCaption>
       <SectionCellGroup>
